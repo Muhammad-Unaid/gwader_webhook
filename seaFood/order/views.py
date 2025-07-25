@@ -136,7 +136,7 @@ def webhook(request):
                 for idx, item in enumerate(cart, start=1):
                     price = get_item_price(item)
                     total_amount += price
-                    emoji = "🐠🐟"
+                    emoji = "🐠"
                     if "Crabs & Lobsters" in item.lower():
                         emoji = "🦀🦞"
                     elif "Prawns" in item.lower():
