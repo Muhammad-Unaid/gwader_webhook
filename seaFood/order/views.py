@@ -368,7 +368,7 @@ def webhook(request):
                 <body>
                     <div style="max-width: 600px; margin: auto; font-family: Arial, sans-serif; background-color: #e0e0e0; padding: 30px; border-radius: 10px; color: #333;">
                         <div style="text-align: center;">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17XTgYlEA22HIiIdGcEFir1N-rpOj38bAHw&s" alt="FoodsInn Logo" width="100" style="margin-bottom: 20px; ">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17XTgYlEA22HIiIdGcEFir1N-rpOj38bAHw&s" alt="Gwadar Sea Food Logo" width="100" style="margin-bottom: 20px; ">
                             <h2 style="color: #f27c1e; font-size: 18px;">New Order Received!</h2>
                         </div>
 
@@ -391,7 +391,7 @@ def webhook(request):
                         <p style="margin-top: 30px; text-align: center;">Dear {name} Thank you for your order our agent will contact your as soon as possible.</p>
 
                         <footer style="text-align: center; margin-top: 40px; font-size: 13px;">
-                            Powered by <a href="#" style="color: #d32f2f; text-decoration: none;">FoodsInn</a> - Your Food Lover's!
+                            Powered by <a href="#" style="color: #d32f2f; text-decoration: none;">Gwadar Sea Food</a> - Your Food Lover's!
                         </footer>
                     </div>
                 </body>
@@ -456,7 +456,7 @@ def webhook(request):
                 <body>
                     <div class="container" style="max-width: 600px; margin: auto; font-family: Arial, sans-serif; background-color: #e0e0e0; padding: 30px; border-radius: 10px; color: #333;" >
                         <div style="text-align: center;">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17XTgYlEA22HIiIdGcEFir1N-rpOj38bAHw&s" alt="FoodsInn Logo" width="100" style="margin-bottom: 20px; ">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ17XTgYlEA22HIiIdGcEFir1N-rpOj38bAHw&s" alt="Gwadar Sea Food Logo" width="100" style="margin-bottom: 20px; ">
                             <h2 style="color: #f27c1e; font-size: 18px;">Your Order detail !</h2>
                         </div>
 
@@ -481,7 +481,7 @@ def webhook(request):
 
                         <footer style="text-align: center; margin-top: 40px; font-size: 13px;">
                             
-                            Powered by <a href="#" style="color: #d32f2f; text-decoration: none;">FoodsInn</a> - Your Food Lover's!
+                            Powered by <a href="#" style="color: #d32f2f; text-decoration: none;">Gwadar Sea Food</a> - Your Food Lover's!
                         </footer>
                     </div>
                 </body>
@@ -490,7 +490,7 @@ def webhook(request):
 
                 print("\nbefore 2nd email")
                 user_msg = EmailMultiAlternatives(
-                    subject="Your FoodsInn Order Confirmation",
+                    subject="Your Gwadar Sea Food Order Confirmation",
                     body=f"Hi {name}, your order (Total Rs. {total_amount}) has been confirmed. You'll be contacted at {phone}.",
                     from_email=settings.EMAIL_HOST_USER,
                     to=[email],
