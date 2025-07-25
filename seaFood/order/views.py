@@ -23,7 +23,7 @@ def get_item_price(title):
                 return item["price"]
     return 0
 
-@csrf_exempt
+
 @csrf_exempt
 def webhook(request):
     global cart
